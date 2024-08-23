@@ -1,0 +1,62 @@
+.contact-me {
+  position: absolute;
+  top: 132px;
+  left: 523px;
+  z-index: 1;
+}
+.frame-child {
+  position: absolute;
+  top: -173px;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 1440px;
+  height: 900px;
+}
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 231px;
+  left: 559px;
+  border-radius: var(--br-base);
+  width: 124px;
+  height: 124px;
+  overflow: hidden;
+  z-index: 1;
+}
+.frame-inner {
+  top: 237px;
+  left: 773px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.contact1 {
+  width: 100%;
+  height: 554px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(./public/contact@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 767px) {
+  .contact-me {
+    font-size: var(--font-size-39xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-me {
+    font-size: var(--font-size-24xl);
+  }
+}
